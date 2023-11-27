@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    
+    background-color: #AEDDCA;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    
+    color: pink;
+    background-color: #36454F;
+    
+    padding: 12px 5px 12px 8px;
+}
+
+#logo {
+    height: 75px;
+    width: 75px;
+    
+    border-radius: 50%;
+    border: solid 2px hotpink;
+    
+    background-color: #36454F;
+}
+
+#title {
+    margin-left: 19px;
+    
+    font-family: cursive;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    
+    background-color: 36454F;
+    text-shadow: 1.5px 2px 2px white;
+}
+
+.links {
+    padding: 13px 0;
+}
+
+#ord, #enq {
+    width: 50%;
+    text-align: center;
+}
+
+#enq {
+    background-color: #AEDDCA;
+}
+
+a {
+    text-decoration: none;
+    
+    color: darkviolet;
+}
+
+footer {
+    background-color: #36454F;
+    
+    text-align: center;
+    
+    padding: 25px 0;
+}
+
+#owner {
+    color: darkgreen;
+}

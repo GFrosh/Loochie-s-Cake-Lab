@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    
+    background-color: #AEDDCA;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    
+    color: pink;
+    background-color: #36454F;
+    
+    padding: 12px 5px 12px 8px;
+}
+
+#logo {
+    height: 75px;
+    width: 75px;
+    
+    border-radius: 50%;
+    border: solid 2px hotpink;
+    
+    background-color: #36454F;
+}
+
+#title {
+    margin-left: 19px;
+    
+    font-family: cursive;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    
+    background-color: 36454F;
+    text-shadow: 1.5px 2px 2px white;
+}
+
+.links {
+    padding: 13px 0;
+}
+
+#ord, #enq {
+    width: 50%;
+    text-align: center;
+}
+
+#ord {
+    background-color: #AEDDCA;
+}
+
+a {
+    text-decoration: none;
+    
+    color: darkviolet;
+}
+
+#note {
+    color: rgb(200,0,0);
+    
+    font-family: Times New Roman;
+}
+
+#main {
+    text-align: center;
+}
+
+.heads {
+    text-align: left;
+    
+    margin-left: 15px;
+    
+    font-family: Times New Roman;
+    
+    color: purple;
+}
+
+#userNum, #userName, #email {
+    border: solid 1.5px gray;
+    border-radius: 12px;
+    
+    padding-left: 10px;
+    
+    width: 92%;
+    height: 50px;
+    
+    margin-bottom: 10px;
+    
+    
+}
+
+hr {
+    width: 95%;
+    
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+ul {
+    text-align: left;
+}
+
+li:hover {
+    background-color: hotpink;
+}
+
+#date, #time, #time2, #date2 {
+    border: none;
+    
+    margin-bottom: 1pc;
+}
+
+#p, #preference {
+    text-align: left;
+    
+    color: brown;
+    
+    margin-left: 20px;
+}
+
+#event, #dimen {
+    color: lightyellow;
+    background-color: gray;
+    
+    border-radius: 10px;
+    
+    margin-left: 5pc;
+    
+    width: 13pc;
+    
+    padding: 1px;
+    
+    font-size: 15px;
+    
+    font-weight: bold;
+}
+
+.flavors {
+    justify-content: left;
+    display: flex;
+}
+
+.left {
+    text-align: left;
+}
+
+#selectFlavors, #paymentMethod {
+    font-size: 20px;
+    font-weight: bold;
+    
+    color: navy;
+    background-color: violet;
+    
+    border: solid 2px navy;
+    border-radius: 5px;
+    
+    margin: 5px 18px;
+    
+    padding: 5px;
+}
+
+#button1 {
+    width: 70%;
+    
+    border-radius: 10px;
+    
+    padding: 3px 5px;
+    
+    margin: 12px 0;
+    
+    color: pink;
+    background-color: darkcyan;
+}
+
+#button1:active {
+    background-color: cyan;
+}
+
+#choices {
+    margin-left: 20px;
+    color: navy;
+    text-align: center;
+}
+
+#textField1, #textField2 {
+    border: solid 1.5px navy;
+    border-radius: 5px;
+    
+    padding: 5px;
+    margin-bottom: 7px;
+}
+
+#STF1, #STF2 {
+    font-size: 14px;
+    
+    background-color: violet;
+    color: navy;
+    
+    border: solid 1.5px navy;
+    border-radius: 5px;
+    
+    margin: 6px 0;
+    
+    padding: 5px 15px;
+}
+
+label {
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+
+#address {
+    border: solid 1.5px navy;
+    border-radius: 3px;
+}
+
+#hide {
+    visibility: hidden;
+}
+
+#hidden {
+    color: red;
+    background-color: rgb(255, 255, 255);
+    
+    border: solid 1.5px navy;
+    border-radius: 3px;
+    
+    font-family: Monospace;
+    font-size: 13px;
+    
+    margin-bottom: 15px;
+}
+
+#submitAll {
+    background-color: black;
+    color: violet;
+    
+    border: solid 2px violet;
+    border-radius: 15px;
+    
+    font-size: 15px;
+    
+    width: 95%;
+    height: 2.5pc;
+    
+    margin: 12px 0;
+}
+
+#submitAll:active {
+    background-color: hotpink;
+}
+
+.space {
+    margin: 40px 0;
+}
+
+footer {
+    background-color: #36454F;
+    
+    text-align: center;
+    
+    padding: 25px 0;
+}
+
+#owner {
+    color: darkgreen;
+}

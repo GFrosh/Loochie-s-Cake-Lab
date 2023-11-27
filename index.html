@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8"/>
+    
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <title>Loochie's Cake Lab</title>
+    
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <img id="logo" src="logo.png" alt="Logo"/>
+                <h1 id="title">Loochie's Cake Lab</h1>
+            </header>
+            <div id="nav">
+                <div class="links" id="ord">
+                    <a href="#">Make Orders</a>
+                </div>
+                <div class="links" id="enq">
+                    <a href="enquiry.html">Make Enquiries</a>
+                </div>
+            </div>
+                <form>
+                <div id="main">
+                <h2 class="heads">Your Details:-</h2>
+                <input type="text" id="userName" placeholder="Your full name" required/>
+                <br>
+                <input type="tel" id="userNum" placeholder="Your Phone number" required/>
+                <br>
+                <input type="email" id="email" placeholder="Your Email" required/>
+                <br>
+                <p id="note">*The above information input field is necessary for contacting the customer and nothing else!</p>
+                <hr>
+                <h2 class="heads">The Event:</h2>
+                <h4 class="heads">What event is the cake for?</h4>
+                <ul>
+                    <li id="b-day">Birthday Ceremony</li>
+                    <li id="marr">Marriage Ceremony</li>
+                    <li id="wed-anni">Wedding Anniversary</li>
+                    <li id="others">Others...</li>
+                </ul>
+                <p id="event"></p>
+                <h4 class="heads">Date and Time of the Event:-</h4>
+                <div id="p">
+                    <span>Date: </span><input type="date" id="date"/>
+                    <br>
+                    <span>Time: </span><input type="time" id="time"/>
+                </div>
+                <h4 class="heads">Delivery/Pickup Time:-</h4>
+                <div id="preference">
+                    <span>Date: </span>
+                    <input type="date" id="date2"/>
+                    <br>
+                    <span>Time: </span>
+                    <input type="time" id="time2"/>
+                </div>
+                <hr>
+                <h2 class="heads">Cake Specifications:</h2>
+                <h4 class="heads">Cake Flavor:-</h4>
+                <div class="flavors">
+                    <div class="left">
+                        <select required id="selectFlavors" multiple>
+                            <option selected disabled id="selected">Tap to see flavors</option>
+                            <option value="Chocolate">Chocolate</option>
+                            <option value="Vanilla">Vanilla</option>
+                            <option value="Red Velvet">Red Velvet</option>
+                            <option value="Coconut">Coconut</option>
+                            <option value="Coffee">Coffee</option>
+                            <option value="Pinapple">Pinapple</option>
+                            <option value="Strawberry">Strawberry</option>
+                            <option value="Carrot">Carrot</option>
+                            <option value="Lemon">Lemon</option>
+                        </select>
+                        <p id="choices"></p>
+                    </div>
+                </div>
+                <h4 class="heads">Cake Size | Shape (inches):-</h4>
+                <ul class="">
+                    <li id="li1">9" × 13" | Rectangular</li>
+                    <li id="li2">11" × 15" | Rectangular</li>
+                    <li id="li3">12" × 18" | Rectangular</li>
+                    <li id="li4">6" | Round</li>
+                    <li id="li5">8" | Round</li>
+                    <li id="li6">9" | Round</li>
+                    <li id="li7">10" | Round</li>
+                    <li id="li8">12" | Round</li>
+                </ul>
+                <p id="dimen"></p>
+                <hr>
+                <h2 class="heads">Additional Requests:</h2>
+                <textarea id="textField1" rows="5" cols="35" placeholder="Enter your special requests here" required></textarea>
+                <br>
+                <button id="STF1">OK</button>
+                <hr>
+                <h2 class="heads">Delivery Details:</h2>
+                <h4 class="heads">Delivery address (Pickup Point):-</h4>
+                <label for="address">Address: </label><input type="text" name="address" id="address" required/>
+                <h4 class="heads">Special Delivery Instructions:-</h4>
+                <textarea id="textField2" rows="4" cols="30" placeholder="Make your delivering easy for us..." required></textarea>
+                <br>
+                <button id="STF2">OK</button>
+                <hr>
+                <h2 class="heads">Prices & Payments:</h2>
+                <h4 class="heads">Current Price:</h4>
+                <div id="hide">
+                    <label for="Price">Price:</label>
+                    <input type="text" name="Price" id="hidden" value="N 18,000.00" disabled/>
+                </div>
+                <h4 class="heads">Payment Method:-</h4>
+                <label for="paymentMethod">Mode for Payment</label>
+                <select name="paymentMethod" id="paymentMethod" required>
+                    <option value="Credit Card">Credit Card</option>
+                    <option value="Bank Transfer">Bank Transfer</option>
+                    <option value="Cash">Cash</option>
+                </select>
+                <hr>
+                <button id="submitAll">Send Order</button>
+            </div>
+            </form>
+            <div class="space"></div>
+            <footer>
+                <h6>All Rights Reserved ©️ ®️</h6>
+                <h5>This website was developed by <b id="owner">Giddy Neutron</b></h5>
+            </footer>
+        </div>
+
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
